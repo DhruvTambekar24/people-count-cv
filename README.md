@@ -47,41 +47,47 @@ Download Link: YOLOv3.weights (Official Source)
 Alternatively,You can download from https://drive.google.com/drive/folders/1XqvLvv_uC8DCTGsEgw4arWg8bFOBj-bC?usp=sharing
 
 ---
-#Installation
+# Installation
 **Installation**
 
-##Backend Setup
--Navigate to the backend directory:
-  cd backend
+## Backend Setup
+ - Navigate to the backend directory:
+ -  ```bash
+    cd backend
+ - Install Python dependencies:
+ -  ```bash
+    pip install -r requirements.txt
+ - Place the downloaded yolov3.weights, yolov3.cfg, and coco.names files in the backend directory.
 
--Install Python dependencies:
-  pip install -r requirements.txt
-  Place the downloaded yolov3.weights, yolov3.cfg, and coco.names files in the backend directory.
-
--Start the Flask server:
-  python main.py
+ - Start the Flask server:
+ -  ```bash
+    python main.py
   
-##Frontend Setup
--Navigate to the frontend directory:
- cd frontend
--Install dependencies:
- npm install
--Start the React development server:
- npm start
- or npm run dev
+## Frontend Setup
+- Navigate to the frontend directory:
+-  ```bash
+   cd frontend
+- Install dependencies:
+-  ```bash
+   npm install
+- Start the React development server:
+-  ```bash
+   npm start
+   #or
+   npm run dev
  
  ---
  
-#🎥 Usage
-**🎥 Usage**
-Open the React app in your browser (default: http://localhost:3000).
-Provide a video input or connect to a live webcam feed.
-View the real-time count of people on the dashboard.
+## 🎥 Usage
+ - Open the React app in your browser (default: http://localhost:3000).
+ - Provide a video input or connect to a live webcam feed.
+ - View the real-time count of people on the dashboard.
 
 ---
 
-##📧 Contact
--Feel free to reach out if you have any questions or suggestions:
--Author: Dhruv Tambekar
--GitHub: DhruvTambekar24
--LinkedIn: https://www.linkedin.com/in/dhruv-tambekar-190a1728a/
+## 📧 Contact
+
+### Feel free to reach out if you have any questions or suggestions:
+ - Author: Dhruv Tambekar
+ - GitHub: DhruvTambekar24
+ - LinkedIn: https://www.linkedin.com/in/dhruv-tambekar-190a1728a/
